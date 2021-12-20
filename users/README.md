@@ -2,7 +2,7 @@ First application part of graghql
 
 to start run 
 
-npm run dev
+<mark>npm run dev</mark>
 
 in one terminal and then
 
