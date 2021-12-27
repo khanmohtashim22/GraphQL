@@ -28,7 +28,7 @@ const SongList = ({ data, mutate }) => {
               key={id} 
               className='collection-item'
             >
-              {title}
+              <Link to={`songs/${id}`}>{title}</Link>
               <i 
                 className='material-icons' 
                 onClick={() => onSongDelete(id)}
